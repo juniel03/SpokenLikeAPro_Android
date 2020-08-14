@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="180sp"
+    android:background="@drawable/menu_bg"
+    android:paddingRight="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_height="wrap_content"
+    >
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:drawableRight="@drawable/uploadwrapped"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Upload"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/violet"
+        android:paddingStart="10dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:drawableRight="@drawable/sendwrapped"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:text="Send for Review"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/violet"
+        android:paddingStart="10dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:drawableRight="@drawable/savewrapped"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Save"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/violet"
+        android:paddingStart="10dp"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:drawableRight="@drawable/deletewrapped"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Delete"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

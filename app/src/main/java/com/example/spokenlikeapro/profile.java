@@ -1,0 +1,22 @@
+package com.example.spokenlikeapro;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+public class profile extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_profile);
+        hideSystemUI.fullscreen(this);
+    }
+
+    public void toHome(View view) {
+        Intent tohome = new Intent(profile.this,mainScreen.class);
+        startActivity(tohome);
+    }
+}

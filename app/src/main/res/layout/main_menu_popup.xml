@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="200sp"
+    android:background="@drawable/menu_bg"
+    android:paddingRight="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_height="wrap_content"
+    >
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Profile (change Password)"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/violet"
+        android:paddingStart="10dp"/>
+
+    <Button
+        android:id="@+id/btnAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="CHANGE ACCENT"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>
